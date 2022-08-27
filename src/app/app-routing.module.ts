@@ -4,8 +4,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { AdminComponent } from './admin/admin.component';
 import { FrontComponent } from './front/front.component';
 import { ServicesComponent } from './services/services.component';
-import { TableComponent } from './table/table.component';
-import { ChartComponent } from './chart/chart.component';
 import { SignupComponent } from './signup/signup.component';
 
 
@@ -16,9 +14,7 @@ const routes: Routes = [
   {path:'about-us',component:AboutUsComponent},
   {path:'services',component:ServicesComponent},
   {path:'admin',component:AdminComponent},
-  {path:'table',component:TableComponent},
-  {path:'chart',component:ChartComponent},
-  {path:'signup',component:SignupComponent}
+ {path:'signup',component:SignupComponent}
   
 
   

@@ -7,9 +7,8 @@ import { FrontComponent } from './front/front.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ServicesComponent } from './services/services.component';
 import { AdminComponent } from './admin/admin.component';
-import { TableComponent } from './table/table.component';
-import { ChartComponent } from './chart/chart.component';
 import { SignupComponent } from './signup/signup.component';
+import { AddproductComponent } from './addproduct/addproduct.component';
 
 
 
@@ -20,9 +19,8 @@ import { SignupComponent } from './signup/signup.component';
     AboutUsComponent,
     ServicesComponent,
     AdminComponent,
-    TableComponent,
-    ChartComponent,
     SignupComponent,
+    AddproductComponent,
     
     
   ],
