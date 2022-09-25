@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectService } from '../project.service';
 
 @Component({
   selector: 'app-product',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductComponent implements OnInit {
 
-  constructor() { }
+  constructor(api:ProjectService) { 
+    api.viewprdt().subscribe(
+      (Response)=>{
+        this.data=Response
+      }
+    )
+  }
 
   ngOnInit(): void {
   }
+  data:any=[
+    
+     ]
 
 }
+
+
+
